@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: 'Roboto', 'Lato', Charcoal, sans-serif;
+}
+html, body{
+    background-color: #0C383B;
+}
+h1{
+    font-size: 6.854rem;
+    font-family: 'Droid Serif', 'PT Serif', Georgia, serif;
+    padding: 1rem 2rem;
+    color: #1B303B;
+}
+h2{
+    font-size: 4.23rem;
+    /* ADD the Google serif font to this font stack */
+    font-family: 'Droid Serif', 'PT Serif', Georgia, serif;
+    padding: 1rem 2rem;
+}
+nav li{
+    font-size: 2.618rem;
+}
+p{
+    font-size: 1.618rem;
+    padding: 1rem 2rem;
+    color: #1B303B;
+}
+.wrapper{
+    max-width: 1400px; 
+    width: 80%;
+    margin: 0 auto;
+    background-color: #479CC6;
+    color: #0B2B3B;
+}
+header{
+    border-bottom: 0.8rem solid #2389BA;
+    background-color: #2389BA;
+    color: #196387;
+}
+.menu-h{
+    width: 100%;
+    list-style-type: none;
+}
+    .menu-h li{
+        width: 20%;
+        list-style-type: none;
+        float: left;
+        position: relative;
+        z-index: 1;
+        background-color: #02163B;
+        text-decoration: none;
+    }
+        .menu-h a,
+        .menu-h a:link,
+        .menu-h a:visited{
+            padding: 8px;
+            text-decoration: none;
+            color: #2961BA;
+            overflow: hidden;
+            display: block;
+            text-align: center;
+            transform: scale(0.8);
+        }
+        .menu-h a:hover,
+        .menu-h a:active{
+            color: white;
+            transition-duration: 0.8s;
+            background-color: #000920;
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+.menu-v{
+    width: 20%;
+    margin-top: 40px;
+    float:left;
+}
+    .menu-v li{
+        width: 100%;
+        list-style-type: none;
+        float: left;
+        position: relative;
+        z-index: 1;
+        background-color: #02163B;
+        text-decoration: none;
+    }
+        .menu-v a,
+        .menu-v a:link,
+        .menu-v a:visited{
+            width: 100%;
+            text-decoration: none;
+            color: #479CC6;
+            overflow: hidden;
+            display: block;
+            text-align: center;
+        }
+        .menu-v a:hover,
+        .menu-v a:active{
+            color: white;
+            transition-duration: 1s;
+            transition: 300ms linear;
+            box-shadow: inset 0 0 0 5px #53a7ea;
+            font-size: 90%;
+            padding-bottom: 5.5px;
+        }
+main{
+    width:80%;
+    float: right;
+}
+footer{
+    clear:both;
+}
